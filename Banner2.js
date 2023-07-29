@@ -8,5 +8,5 @@
                 {
                     index = 0;
                 }
-    }
+       }
 setInterval(changeImage,4000)

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DangNhap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <title>ĐĂNG NHẬP</title>
+</head>
+<body>
+    <div id="wapper">
+        <header>
+            <div class="inner-header container ">
+                <a href="index.html" id="logo">QuangVu</a>
+                <nav>
+                    <ul id="main-menu">
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="">Giới Thiệu</a></li>
+                        <li><a href="">Sản phẩm</a></li>
+                        <li><a href="DangNhap.html">Đăng nhập</a></li>
+                        <li><a href="">Liên Hệ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    <div id="wrapper">
+       <form action="">
+       <h3>Đăng nhập</h3> 
+       <div class="form-group">
+        <input type="text" name="email" required>
+        <label for="">Email</label>
+       </div>
+       <div class="form-group">
+        <input type="password" name="password" required>
+        <label for="">Mật Khẩu</label>
+       </div>
+       <input type="submit" value="Đăng nhập" id="btn-login">
+    </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function(){
+                if($(this).scrollTop()) {
+                    $('header').addClass('sticky');
+                }else {
+                    $('header').removeClass('sticky');
+                }               
+            });
+        });
+    </script>
+    <script>
+           var scrollingElement = (document.scrollingElement || document.body);
+            scrollingElement.scrollTop = scrollingElement.scrollHeight;
+</script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="DangNhap.css">
+<link rel="stylesheet" href="DangNhap1.css">
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+
+
+<head>
+
+</head>
+
+<body>
+    <div id="wapper">
+        <header>
+            <div class="inner-header container ">
+                <a href="index.html" id="logo">NTO.vn</a>
+                <nav>
+                    <ul id="main-menu">
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="GioiThieu.html" onclick="scrollWin()">Giới Thiệu</a></li>
+                        <li><a href="">Dịch vụ</a>
+                            <ul class="sub-menu">
+                                <li><a href="DangNhap.html">Đặt Phòng</a></li>
+                                <li><a href="DangKy.html">Tìm Phòng</a></li>
+
+                                <li><a href="DangKy.html">Phòng Theo Khu Vực</a></li>
+                                <li><a href="DangKy.html">Hướng dẫn Đặt Phòng</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Tài khoản</a>
+                            <ul class="sub-menu">
+                                <li><a href="DangNhap.html">Đăng nhập</a></li>
+                                <li><a href="DangKy.html">Đăng ký</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="ThanhToan.html">Thanh toán</a></li>
+                        <li><a href="Lienhe.html">Liên hệ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="wrapper">
+            <form action="">
+                <h3>Liên hệ với chúng tôi</h3>
+                <div class="form-group">
+                    <input type="text" name="email" required>
+                    <label for="">Email của bạn</label>
+                </div>
+                <div class="form-group">
+                    <input type="sdt" name="sdt" required>
+                    <label for="">Số điện thoại của bạn</label>
+                </div>
+                <div class="form-group">
+                    <input type="tilte" name="tilte" required>
+                    <label for="">Tiêu đề của bạn</label>
+                </div>
+                <div class="form-group">
+                    <input type="content" name="content" required>
+                    <label for="">Nội dung yêu cầu</label>
+                </div>
+
+                <input type="submit" value="Gửi yêu cầu" id="btn-login">
+            </form>
+        </div>
+</body>
+
+</html>

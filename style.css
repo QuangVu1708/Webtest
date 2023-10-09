@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0px auto;
+    max-width: 960px;
+
+}
+
+#wapper {
+    width: 100%;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background-color: black;
+}
+
+#logo {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    display: block;
+}
+
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul#main-menu {
+    display: flex;
+}
+
+ul#main-menu a {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+}
+
+#banner {
+    width: 100%;
+
+    min-height: 480px;
+}
+
+#banner img {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 20px 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+#content h1 {
+    padding: 30px 0px;
+}
+
+#content p {
+    margin-bottom: 1.2rem;
+
+}
+
+header.sticky {
+    background: #fff;
+    opacity: 0.9;
+    padding: 15px 0px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+header.sticky #main-menu a {
+    color: #000;
+}
+
+header.sticky #logo {
+    color: #000;
+}
+
+
+.footer {
+    width: 20px;
+    height: 70px;
+
+}
+
+#main-menu ul.sub-menu {
+    position: absolute;
+    color: #fff;
+    padding: 15px 0px;
+    list-style: none;
+    width: 150px;
+
+    display: none;
+}
+
+#main-menu li:hover ul.sub-menu {
+    display: block;
+
+}
+
+#main-menu li {
+    position: relative;
+}
+
+#main-menu ul.sub-menu a {
+    border-bottom: 1px solid #434343;
+}
+
+#main-menu ul.sub-menu a {
+    border-bottom: 1px solid #434343;
+}
+
+#main-menu ul.sub-menu li:hover {
+    border-bottom: 1px solid #7e7c7c;
+}
+
+#main-menu ul.sub-menu li:last-child {
+    border: none;
+}
+
+header.sticky #main-menu ul.sub-menu a {
+    color: #000;
+    background: #fff;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    opacity: 0.9;
+    padding: 15px 0px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
